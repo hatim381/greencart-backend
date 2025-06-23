@@ -12,5 +12,4 @@ cur.execute("UPDATE users SET password = ? WHERE email = ?", (new_hash, email))
 conn.commit()
 print(f"Mot de passe de {email} mis à jour.")
 conn.close()
-print(f"Mot de passe de {email} mis à jour.")
-conn.close()
+
